@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "city": "Madrid",
+        "name": "Cocido madrileño",
+        "img": "../images/foods/madrid-cocido.jpg",
+        "description": "Cocido madrileño is a traditional chickpea-based stew from Madrid, Spain. A substantial dish prepared with meat and vegetables, it is most popular during the winter but is served throughout the year in some restaurants. Initially it was a dish for humble people, but it started to climb in society thanks to its inclusion in restaurant menus. The chickpea was introduced under Carthaginian rule, and was later used in medieval Spain. It is a dish normally eaten in winter, in the cold months of the year.",
+        "intolerances": "None",
+        "vegan": false
+    }
+]

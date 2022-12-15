@@ -1,0 +1,13 @@
+@import 'core/reset';
+
+body {
+  background-image: url('../images/spain-map.jpg');
+  background-size: cover;
+  min-height: 130vh;
+}
+
+.logo {
+  height: 150px;
+  position: fixed;
+  right: 0;
+}

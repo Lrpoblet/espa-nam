@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.f774f265.css",
+    "main.js": "./static/js/main.ec099177.js",
+    "static/media/spain-map.jpg": "./static/media/spain-map.ca8b76cc1e3b2582c7be.jpg",
+    "static/media/Logo.png": "./static/media/Logo.e7d8dfc54dda3455ac9f.png",
+    "index.html": "./index.html",
+    "main.f774f265.css.map": "./static/css/main.f774f265.css.map",
+    "main.ec099177.js.map": "./static/js/main.ec099177.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f774f265.css",
+    "static/js/main.ec099177.js"
+  ]
+}

@@ -1,13 +1,43 @@
 @import 'core/reset';
 
 body {
-  background-image: url('../images/spain-map.jpg');
+  background-image: url('../images/spain.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
   background-size: cover;
-  min-height: 130vh;
+  background-size: contain;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .logo {
   height: 150px;
-  position: fixed;
-  right: 0;
+  width: fit-content;
+}
+
+.search {
+  padding: 1em 0;
+  display: flex;
+  flex-direction: column;
+
+  &__button {
+    padding: 0.5em;
+    margin: 0.5em;
+  }
+
+  @media all and (min-width: 768px) {
+    padding: 1em;
+  }
 }

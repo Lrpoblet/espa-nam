@@ -1,21 +1,39 @@
 @import 'core/reset';
 
-body {
-  background-image: url('../images/spain.svg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  background-size: contain;
+// body {
+//   background-image: url('../images/spain.svg');
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   background-position: center center;
+//   background-size: cover;
+//   background-size: contain;
+// }
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  @media all and (min-width: 768px) {
+    height: 100vh;
+  }
+}
+
+.map {
+  object-fit: contain;
+  // height: 100%;
+  width: 100%;
 }
 
 .header {
+  position: sticky;
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   @media all and (min-width: 768px) {
+    position: fixed;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;

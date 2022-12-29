@@ -9,6 +9,13 @@
 //   background-size: contain;
 // }
 
+.fa-location-dot {
+  position: absolute;
+  transform: scale(3.5);
+  top: 50%;
+  left: 50%;
+}
+
 .container {
   width: 100%;
   display: flex;
@@ -42,7 +49,6 @@
 
 .logo {
   height: 150px;
-  width: fit-content;
 }
 
 .search {
@@ -57,5 +63,44 @@
 
   @media all and (min-width: 768px) {
     padding: 1em;
+  }
+}
+
+.icon {
+  position: fixed;
+  z-index: 10;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .form__btn {
+    height: fit-content;
+  }
+
+  &__content {
+    width: 50%;
+    box-shadow: 0 0 100px black;
+    border-color: #54585b;
+  }
+
+  &__section {
+    display: flex;
+    align-items: center;
+  }
+
+  .card__description {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  &__img {
+    width: 50%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+      rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   }
 }

@@ -8,6 +8,11 @@ function Madrid() {
       <button>
         <Link to="/">GET BACK</Link>
       </button>
+
+      <Link to="/Card">
+        <i class="fa-solid fa-location-dot"> </i>
+      </Link>
+
       <div className="container">
         <img src={madrid} alt="" className="map" />
       </div>

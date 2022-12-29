@@ -1,17 +1,16 @@
 {
   "files": {
     "main.css": "./static/css/main.f0ec3851.css",
-    "main.js": "./static/js/main.f2028548.js",
-    "static/media/madrid-cocido.jpg": "./static/media/madrid-cocido.83a603246ea1680f6c8c.jpg",
+    "main.js": "./static/js/main.c08d448d.js",
     "static/media/spain.gif": "./static/media/spain.0fbae2b4133a1fcca957.gif",
     "static/media/Logo.png": "./static/media/Logo.e7d8dfc54dda3455ac9f.png",
     "static/media/madrid.gif": "./static/media/madrid.e345528d3039ccedb664.gif",
     "index.html": "./index.html",
     "main.f0ec3851.css.map": "./static/css/main.f0ec3851.css.map",
-    "main.f2028548.js.map": "./static/js/main.f2028548.js.map"
+    "main.c08d448d.js.map": "./static/js/main.c08d448d.js.map"
   },
   "entrypoints": [
     "static/css/main.f0ec3851.css",
-    "static/js/main.f2028548.js"
+    "static/js/main.c08d448d.js"
   ]
 }

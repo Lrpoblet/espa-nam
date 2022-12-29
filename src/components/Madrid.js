@@ -10,7 +10,7 @@ function Madrid() {
       </button>
 
       <Link to="/Card">
-        <i class="fa-solid fa-location-dot"> </i>
+        <i className="fa-solid fa-location-dot"> </i>
       </Link>
 
       <div className="container">

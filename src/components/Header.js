@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom';
 import logo from '../images/Logo.png';
 
 function Header({ ACChange, AC }) {
   function handleChangeAC(ev) {
     ACChange(ev.target.value);
+    <Link to={ev.target.value} />;
   }
 
   return (
@@ -23,7 +25,7 @@ function Header({ ACChange, AC }) {
           <option value="Comunidad Valenciana">Comunidad Valenciana</option>
           <option value="Extremadura">Extremadura</option>
           <option value="Galicia">Galicia</option>
-          <option value="Comunidad de Madrid">Comunidad de Madrid</option>
+          <option value="/Madrid">Comunidad de Madrid</option>
           <option value="Murcia">Murcia</option>
           <option value="Navarra">Navarra</option>
           <option value="País Vasco">País Vasco</option>

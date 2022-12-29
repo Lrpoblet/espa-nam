@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import cocido from '../images/foods/madrid-cocido.jpg';
 
 function card() {
   return (
@@ -16,7 +15,11 @@ function card() {
             </Link>
           </div>
           <section className="modal__section">
-            <img src={cocido} alt="cocido" className="modal__img" />
+            <img
+              src="https://img-global.cpcdn.com/recipes/recipes_40749_v1393351132_receta_foto_00040749/1280x1280sq70/photo.webp"
+              alt="cocido"
+              className="modal__img"
+            />
             <ul className="card__description">
               <li>
                 Cocido madrileño is a traditional chickpea-based stew from
